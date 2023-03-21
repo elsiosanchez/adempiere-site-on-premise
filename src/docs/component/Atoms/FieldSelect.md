@@ -335,7 +335,6 @@ const options = [
 </script>
 ```
 
-
 ### Attributes
 
   |   Name    | Description | Type   | Default |
