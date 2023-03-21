@@ -335,14 +335,6 @@ const options = [
 </script>
 ```
 
-
-### Props
-
-  |   Name    | Description | Type  | Mandatory |
-  | :---------: | :-----------: | :-----------------: | :-----------: |
-  |    `value`  | binding value  | <el-tag effect="Light">  **{{ 'String' }}** </el-tag>  |  <el-tag effect="dark" round > **{{ 'True' }}** </el-tag> |
-  | `optionList`| List of Options that must be displayed in the Select. Within the array of options, the attributes to be received and required are:  <el-tag effect="Light"> **{{ ' { label: title, value: value, disabled: false\true } ' }}** </el-tag> | <el-tag effect="Light">  **{{ 'array' }}** </el-tag>  |  <el-tag effect="dark" round > **{{ 'True' }}** </el-tag> |
-
 ### Attributes
 
   |   Name    | Description | Type   | Default |
