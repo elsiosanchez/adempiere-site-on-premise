@@ -1,9 +1,9 @@
 <template>
   <el-card class="box-card">
     <p style="text-align: center;">
-      <p style="color: black;">
+      <b style="color: black;">
         {{ slotHeader }}
-      </p>
+      </b>
       <el-button
         :type="typoButton"
         :disabled="isDisable"
@@ -16,9 +16,9 @@
       >
         {{ text }} {{ slotContent }}
       </el-button>
-      <p style="color: black;">
+      <b style="color: black;">
         {{ slotFooter }}
-      </p>
+      </b>
     </p>
     <el-divider content-position="center">
       {{ '(Attributes and Props) Button' }}
